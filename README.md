@@ -7,7 +7,7 @@ Adbot.py : Met le serveur en écoute, reçoit les commandes et les exécutes.
 
 Adclient.py : Se connecte au serveur et envoie  les commandes à exécuter.
 
-Manageclient.py : Test l’ensemble des fonctions.
+Manageclient.py : Teste l’ensemble des fonctions.
 
 Utilisation:
 Le script adclient.py contient les différentes opérations que l'on peut effectuer.
