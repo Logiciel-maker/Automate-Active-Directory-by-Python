@@ -4,6 +4,7 @@ Ce programme fait en trois parties  permet la création et la gestion des compte
 Adbot.py : Met le serveur en écoute, reçoit les commandes et les exécutes.
 Adclient.py : Se connecte au serveur et envoie  les commandes à exécuter.
 Manageclient.py : Test l’ensemble des fonctions.
+
 Utilisation:
 Le script adclient.py contient les différentes opérations que l'on peut effectuer.
 1 ... Opération de création, suppression et de modification de mot de passe.
