@@ -1,5 +1,6 @@
 # Automate-Active-Directory-by-Python
 Automate the creation and management of active directory user accounts.
+
 Ce programme fait en trois parties  permet la création et la gestion des comptes utilisateurs active directory.
 Adbot.py : Met le serveur en écoute, reçoit les commandes et les exécutes.
 Adclient.py : Se connecte au serveur et envoie  les commandes à exécuter.
