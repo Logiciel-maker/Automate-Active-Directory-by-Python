@@ -7,6 +7,7 @@ Manageclient.py : Test l’ensemble des fonctions.
 
 Utilisation:
 Le script adclient.py contient les différentes opérations que l'on peut effectuer.
+
 1 ... Opération de création, suppression et de modification de mot de passe.
 Action: Dans la fonction executeTest  décommenter  l'instruction que vous souhaitez effectuer et dans la fonction main decommanté test1.
 En fonction des instructions décommenté on pourra donc créer, supprimer, changer le mot de passe d'un utilisateur.
