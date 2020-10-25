@@ -28,7 +28,7 @@ Action: Lancer le script manage.py -test createuser, enter son nom et valider, e
 
 Action: Lancer le script manage.py -test multiplecreation, ensuite indiquer le nom du fichier csv qui contient les noms des utilisateurs et valider.
 
-4...Operation changer le mot de passe de l'utilisateur.
+5...Operation changer le mot de passe de l'utilisateur.
 
 Action: Lancer le script manage.py -test changepass, entrer le nom de l'utilisateur et valider, ensuite indiquer le nouveau mot de passe.
 
