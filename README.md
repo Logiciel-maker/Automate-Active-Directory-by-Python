@@ -10,21 +10,22 @@ Adclient.py : Se connecte au serveur et envoie  les commandes à exécuter.
 Manageclient.py : Teste l’ensemble des fonctions.
 
 Utilisation:
-Le script adclient.py contient les différentes opérations que l'on peut effectuer.
+Lancer le script managead.py avec l'option -test suivi de l'action que vous souhatez effectuer.
 
-1 ... Opération de création, suppression et de modification de mot de passe.
+1 ... Opération de création d'un utilisateur.
 
-Action: Dans la fonction executeTest  décommenter  l'instruction que vous souhaitez effectuer et dans la fonction main decommanté le test 1.
-En fonction des instructions décommenté on pourra donc créer, supprimer, changer le mot de passe d'un utilisateur.
+Action: Lancer le script manage.py -test createuser, entrer le nom de l'utilisateur et valider, son id et valider, ensuite son nom complet et valider.
 
-2...Opération de création et de suppression de groupes
+2...Opération de création de groupes
 
-Action: Dans la fonction executeTest  décommenter l'instruction que vous souhaitez effectuer et dans la fonction main decommanté le test 2.
-En fonction de chaque instruction décommentée on pourra créer des groupes, des utilisateurs, ajouter des utilisateurs dans des groupes.
+Action: Lancer le script manage.py -test creategroupe, et entrer le nom du groupe et valider.
 
-3...Operation de création d'utilisateurs multiples.
+3.....Opération de création d'un utilisation et son ajout dans un groupe.
+Action: Lancer le script manage.py -test createuser, enter son nom et valider, ensuite  specifier le nom du groupe dans lequel vous souhaitez l'ajouter et valider. 
 
-Action: Dans la fonction executeTest  décommenter l'instruction que vous souhaitez effectuer et dans la fonction main décommanté le test 3.
-En fonction de chaque instruction décommentée on pourra créer plusieurs utilisateurs active directory à partir du fichier CSV.
-On pourra aussi créer des groupes, supprimer, ajouter des utilisateurs de façon simultané dans des groupes.
+4...Operation de création d'utilisateurs multiples.
+Action: Lancer le script manage.py -test multiplecreation, ensuite indiquer le nom du fichier csv qui contient les noms des utilisateurs et valider.
+
+4...Operation changer le mot de passe de l'utilisateur.
+Action: Lancer le script manage.py -test changepass, entrer le nom de l'utilisateur et valider, ensuite indiquer le nouveau mot de passe.
 
