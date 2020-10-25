@@ -21,11 +21,14 @@ Action: Lancer le script manage.py -test createuser, entrer le nom de l'utilisat
 Action: Lancer le script manage.py -test creategroupe, et entrer le nom du groupe et valider.
 
 3.....Opération de création d'un utilisation et son ajout dans un groupe.
+
 Action: Lancer le script manage.py -test createuser, enter son nom et valider, ensuite  specifier le nom du groupe dans lequel vous souhaitez l'ajouter et valider. 
 
 4...Operation de création d'utilisateurs multiples.
+
 Action: Lancer le script manage.py -test multiplecreation, ensuite indiquer le nom du fichier csv qui contient les noms des utilisateurs et valider.
 
 4...Operation changer le mot de passe de l'utilisateur.
+
 Action: Lancer le script manage.py -test changepass, entrer le nom de l'utilisateur et valider, ensuite indiquer le nouveau mot de passe.
 
