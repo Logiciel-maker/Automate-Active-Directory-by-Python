@@ -2,9 +2,9 @@ import adClient #Importer toutes les fonctions se trouvant dans le fichier adCli
 import csv
 import argparse
 
-""""
-créer un dictionnaire contenants les utilsateurs se trouvant dans le fichier csvFile
-""""
+
+#créer un dictionnaire contenants les utilsateurs se trouvant dans le fichier csvFile
+
 def retrieveUsersFromCSV(csvFile):
     users=[]
     try:
